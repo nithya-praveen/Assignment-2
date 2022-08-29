@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="./index.html">
+        <Label for="Name">Name : </Label> <input type="text" placeholder="Enter your Name" name="Name" required> <br><br>
+        <label for="Mail ID">Email Address : </label> <input type="email" placeholder="Enter your mail ID" name="Mail_ID" required><br><br>
+        <label for="Password">Password : </label> <input type="Password" placeholder="Enter your password" name="Password" required><br><br>
+        <label for="Contact Number">Phone Number : </label> <input type="tel" placeholder="Enter your contact" maxlength="10" name="Contact_Number" required><br><br>
+        <label for="Language">Languages : </label> <br><br> <input type="radio" name="Language" value="React" required>React <br>
+                                          <input type="radio" name="Language" value="Angular" required>Angular <br>
+                                          <input type="radio" name="Language" value="Vue" required>Vue <br><br>
+        <label for="Course">Course : </label> <br><br> <input type="checkbox" name="Course1" value="MERN" required>MERN <br>
+                                     <input type="checkbox" name="Course2" value="MEAN" required>MEAN <br>  
+                                     <input type="checkbox" name="Course3" value="MEVN">MEVN <br><br>
+        <Label for="Field">Field : </Label> <br><br>
+        <select name="Course" id="">
+            <option value="Front End">Front End</option>
+            <option value="Back End">Back End</option>
+            <option value="Full Stack">Full Stack</option>
+        </select> <br><br>
+        <textarea name="Description" id="" cols="30" rows="10"></textarea> <br><br>
+        <input type="submit" value="Submit">
+        <h1>TABLES</h1>
+        <a href="./Table.html">Click here</a>
+    </form>
+</body>
+</html>
